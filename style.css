@@ -1,0 +1,75 @@
+body{
+    height: 100%;
+    /* width: 100%; */
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    margin-top: 13%;
+    background-color:cyan;
+    font-size: 3.4vw;
+}
+center{
+    padding: 0%;
+}
+h2{
+    transition-duration: 3s;
+    /* transform-style: flat; */
+    margin-top: -6%;
+
+}
+.divOne{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0%;
+}
+.divTwo{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+button:hover{
+    background-color: darkgray;
+    color: white;
+}
+button{
+    transition-duration: 0.5s;
+    font-size: 100%;
+    border-radius: 10px;
+    width: 30%;
+    height: 40%;
+    margin-top: 1%;
+}
+input{
+    border-radius: 10px;
+    border-color: crimson;
+    width: 50%;
+    height: 3vh;
+    margin-top: -1%;
+}
+.convertbtn{
+    background-color: rgb(20, 20, 20);
+    color: blanchedalmond;
+}
+
+.toDecBTN{
+    background-color: crimson;
+    color: white;
+}
+.toDecBTN{
+    display: none;
+}
+h1{
+    text-decoration: underline;
+}
+h3{
+    font-size: 4vw;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
